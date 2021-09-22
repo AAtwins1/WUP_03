@@ -40,6 +40,12 @@ This fancy box plot agrees with the box plot demonstrated earlier. It shows that
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The numerical data displays the exact averages. The front seat students drink 1.8 times per week, the middle seat students drink 3.3 times per week, and the back seat students drink 8.6 times per week. This data further agrees with the two box plots represented before. It also shows that the standard deviation of the front, middle, and back seats are 3.8, 6.2, and 12.6 respectively. Which proves that the further a student is seated in the class, the more times they consume alcohol per week.  
+
 ## Inferential Tests
 
 ## Conclusions
